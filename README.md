@@ -1,7 +1,7 @@
 # Readme
-## 🙆🏻 tagmoji — the way to say hi to custom tags in visual studio !
+ 🙆🏻 tagmoji — the best way to say hi to custom tags in visual studio !
 
-### How To Use it!?
+## How To Use it!?
 
 1️⃣	Open a folder or workspace in VS Code。
 
