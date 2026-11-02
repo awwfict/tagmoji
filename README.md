@@ -20,9 +20,6 @@ right-click on any file in Explorer and select «🔖 tag»
 to clear, right-click on the file and choose «🧽 untag» !
 
 ---
-
-### ✳️ Important limitations
-
 > 🙈 tags and assignments are stored in **VS Code workspace** state。 They are **not** written into your source files or Git history。
 
 > 🙊 VS Code’s public FileDecoration API places a short badge on/near the file icon and may show a tooltip。 It does not let extensions freely place a custom emoji at the far right of each Explorer row like a custom HTML pill。 This prototype tests the native badge approach without replacing your Explorer。 Emoji rendering and badge positioning depend on VS Code and the icon theme。
