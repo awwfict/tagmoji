@@ -1,4 +1,4 @@
-# 🌀 Readme
+### Readme
 👀 tagmoji — the best way to say hi to custom tags in visual studio !
 
 ---
