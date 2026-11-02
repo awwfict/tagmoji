@@ -5,7 +5,6 @@
 
 #№# How To Use !?
 #### Get it !
-
 1.	open a folder or workspace in VS Code。
 
 2.	open the Command Palette (⇧⌘P) and run **🦄 tagmoji**。
