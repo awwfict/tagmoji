@@ -3,8 +3,8 @@
 
 ---
 
-## How To Use it!?
-### Get it !
+#№# How To Use !?
+#### Get it !
 
 1.	open a folder or workspace in VS Code。
 
