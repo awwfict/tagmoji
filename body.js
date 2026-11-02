@@ -1,7 +1,7 @@
 {
   "name": "tagmojis",
   "displayName": "🦄 tagmoji",
-  "description": "Say "hello" to tag-mojis on your files!",
+  "description": "Say 'hello' to tags right on your files!",
   "version": "0.1.0",
   "publisher": "local-tools",
   "engines": {
@@ -22,7 +22,7 @@
       },
       {
         "command": "tagmoji.manage",
-        "title": 👉🏻 manage"
+        "title": "✂️ manage"
       },
       {
         "command": "tagmoji.remove",
