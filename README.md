@@ -1,9 +1,9 @@
-### Readme
+# Readme
 👀 tagmoji — the best way to say hi to custom tags in visual studio !
 
 ---
 
-#№# How To Use !?
+### How To Use !?
 #### Get it !
 1.	open a folder or workspace in VS Code。
 
@@ -11,11 +11,11 @@
 
 3.	choose a name and an emoji for your next new tag。 *👉🏻 optionally enter a VS Code theme color ID, or leave it blank*。
 
-### Set it !
+#### Set it !
 right-click on any file in Explorer and select «🔖 tag» 
 → choose your tagmoji。 
 
-### And repeat !
+#### And repeat !
 to clear, right-click on the file and choose «🧽 untag» !
 
 ---
