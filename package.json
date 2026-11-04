@@ -17,6 +17,10 @@
   "contributes": {
     "commands": [
       {
+        "command": "tagmoji.start",
+        "title": "🦄 tagmoji"
+      },
+      {
         "command": "tagmoji.assign",
         "title": "🔖 tag"
       },
@@ -32,11 +36,11 @@
     "menus": {
       "explorer/context": [
         {
-          "command": "emojiFileTags.assign",
+          "command": "tagmoji.assign",
           "group": "navigation@8"
         },
         {
-          "command": "emojiFileTags.remove",
+          "command": "tagmoji.remove",
           "group": "navigation@9"
         }
       ]
