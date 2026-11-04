@@ -4,18 +4,18 @@
 ---
 
 ### How To Use !?
-#### Get it !
+#### #HowTo 1️⃣ Set up mojis:
 1.	open a folder or workspace in VS Code。
 
-2.	open the Command Palette (⇧⌘P) and run **🦄 tagmoji**。
+2.	open the Command Palette (⇧⌘P) and run **💟 tagmoji**。
 
 3.	choose a name and an emoji for your next new tag。 *👉🏻 optionally enter a VS Code theme color ID, or leave it blank*。
 
-#### Set it !
+#### #HowTo 2️⃣ Create & apply tags:
 right-click on any file in Explorer and select «🔖 tag» 
 → choose your tagmoji。 
 
-#### And repeat !
+#### #HowTo 3️⃣ Edit & trash tags:
 to clear, right-click on the file and choose «🧽 untag» !
 
 ---
