@@ -1,6 +1,6 @@
 {
   "name": "tagmojis",
-  "displayName": "🦄 tagmoji",
+  "displayName": "💟 tagmoji",
   "description": "Say 'hello' to tags right on your files!",
   "version": "0.1.0",
   "publisher": "local-tools",
@@ -17,12 +17,12 @@
   "activationEvents": [
     "onStartupFinished"
   ],
-  "main": "./uni.js",
+  "main": "uni.js",
   "contributes": {
     "commands": [
       {
         "command": "tagmoji.start",
-        "title": "🦄 tagmoji"
+        "title": "💟 tagmoji"
       },
       {
         "command": "tagmoji.assign",
