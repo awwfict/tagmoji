@@ -178,7 +178,7 @@ async function manageTags(context, provider) {
 
   const options = [
     {
-      label: '$(add) ✨ make a new',
+      label: '$(add) 🦄 add new',
       action: 'create'
     },
 
@@ -200,12 +200,49 @@ async function manageTags(context, provider) {
   if (!picked) return;
 
   const current = picked.tag;
+if (current) {
+  const action = await vscode.window.showQuickPick(
+    [
+      { label: '✏️ edit', value: 'edit' },
+      { label: '🚮 trash', value: 'trash' }
+    ],
+    { placeHolder: '🔧 tool-menu: ' }
+  );
 
+  if (!action) return;
+
+  if (action.value === 'trash') {
+    const confirm = await vscode.window.showWarningMessage(
+      '🚮 trash "' + current.name + '" and remove it from all files?',
+      { modal: true },
+      'y'
+    );
+
+    if (confirm !== 'y') return;
+
+    const next = context.workspaceState.get(TAGS_KEY, []);
+    const assignments = context.workspaceState.get(ASSIGNMENTS_KEY, {});
+
+    await context.workspaceState.update(
+      TAGS_KEY,
+      next.filter(t => t.id !== current.id)
+    );
+
+    for (const [key, tagId] of Object.entries(assignments)) {
+      if (tagId === current.id) delete assignments[key];
+    }
+
+    await context.workspaceState.update(ASSIGNMENTS_KEY, assignments);
+    provider.refreshAll();
+    vscode.window.showInformationMessage('✂️ "' + current.name + '" successfully trashed');
+    return;
+  }
+}
   const name = await vscode.window.showInputBox({
     prompt: '1️⃣ name it firstly',
     value: current ? current.name : '',
     validateInput: v =>
-      v.trim() ? null : '📍 tag must have a name'
+      v.trim() ? null : '📍 tag must has a name'
   });
 
   if (!name) return;
