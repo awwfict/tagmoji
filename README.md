@@ -1,5 +1,5 @@
 # 🔧 GUIDE
-
+Welcome to this repository! hope it helps!
 ## How To Use !?
 #### #HowTo 1️⃣ _Set up_ mojis:
 1.	open a folder or workspace in VS Code。
