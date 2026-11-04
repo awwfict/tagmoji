@@ -1,21 +1,19 @@
-# Readme
-👀 tagmoji — the best way to say hi to custom tags in visual studio !
+# 🔧 GUIDE
 
+## How To Use !?
 ---
-
-### How To Use !?
-#### #HowTo 1️⃣ Set up mojis:
+#### #HowTo 1️⃣ _Set up_ mojis:
 1.	open a folder or workspace in VS Code。
 
 2.	open the Command Palette (⇧⌘P) and run **💟 tagmoji**。
 
 3.	choose a name and an emoji for your next new tag。 *👉🏻 optionally enter a VS Code theme color ID, or leave it blank*。
 
-#### #HowTo 2️⃣ Create & apply tags:
+#### #HowTo 2️⃣ _Create & apply_ tags:
 right-click on any file in Explorer and select «🔖 tag» 
 → choose your tagmoji。 
 
-#### #HowTo 3️⃣ Edit & trash tags:
+#### #HowTo 3️⃣ _Edit & trash_ tags:
 to clear, right-click on the file and choose «🧽 untag» !
 
 ---
